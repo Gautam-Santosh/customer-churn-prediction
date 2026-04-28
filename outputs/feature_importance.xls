@@ -1,0 +1,16 @@
+Feature,Importance
+Contract_Two year,0.30534652
+Contract_One year,0.22303113
+InternetService_No,0.1655864
+Dependents_Yes,0.031785205
+MultipleLines_No phone service,0.031669933
+PaymentMethod_Credit card (automatic),0.028644172
+OnlineSecurity_Yes,0.027680304
+TechSupport_Yes,0.024149304
+PaymentMethod_Mailed check,0.022844164
+OnlineBackup_Yes,0.018598717
+Partner_Yes,0.012654029
+PhoneService_Yes,0.011939536
+MonthlyCharges,0.009860436
+tenure,0.009831764
+DeviceProtection_Yes,0.009825666
