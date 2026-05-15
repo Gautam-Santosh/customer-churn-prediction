@@ -2,17 +2,17 @@
 
 Predicting which Telco customers will cancel their subscription using machine learning, with a focus on **catching churners before they leave**.
 
-## 🎯 Business Problem
+##  Business Problem
 
 Customer churn directly impacts revenue. This project identifies at-risk customers so the business can intervene with retention offers before they cancel.
 
-## 📊 Dataset
+##  Dataset
 
 - **Source:** [Telco Customer Churn on Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 - **Size:** 7,043 customers, 21 features
 - **Target:** Churn (Yes/No) — 26.5% churn rate (imbalanced)
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python 3
 - pandas, numpy
@@ -21,7 +21,7 @@ Customer churn directly impacts revenue. This project identifies at-risk custome
 - imbalanced-learn (SMOTE)
 - matplotlib, seaborn
 
-## 🔍 Approach
+##  Approach
 
 1. **Data cleaning** — fixed `TotalCharges` data type, dropped customer ID, encoded target variable
 2. **Feature engineering** — one-hot encoded 16 categorical features
@@ -29,7 +29,7 @@ Customer churn directly impacts revenue. This project identifies at-risk custome
 4. **Class imbalance handling** — applied SMOTE to address 73/27 imbalance
 5. **Business interpretation** — analyzed feature importance for actionable recommendations
 
-## 📈 Results
+##  Results
 
 | Model              | ROC-AUC | Recall (Churn) | Precision (Churn) |
 |--------------------|---------|----------------|-------------------|
@@ -45,7 +45,7 @@ Customer churn directly impacts revenue. This project identifies at-risk custome
 
 The model significantly outperforms random guessing (dashed line), with strong separation between classes.
 
-## 💡 Key Business Insights
+##  Key Business Insights
 
 ### Top Features Driving Churn
 
@@ -55,11 +55,11 @@ The model significantly outperforms random guessing (dashed line), with strong s
 - **Month-to-month customers are the highest-risk segment** — they have nothing keeping them locked in.
 - **Customers without internet service rarely churn** — basic phone-only users are sticky.
 
-## 🎯 Recommended Retention Strategy
+##  Recommended Retention Strategy
 
 Offer 5–10% discounts to convert month-to-month customers to annual contracts. This is likely the highest-ROI retention strategy based on model insights.
 
-## 📁 Project Structure
+##  Project Structure
 
 ​```
 customer-churn-prediction/
@@ -74,7 +74,7 @@ customer-churn-prediction/
     └── feature_importance.png
 ​```
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone this repo
 2. `pip install -r requirements.txt`
