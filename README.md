@@ -81,7 +81,7 @@ customer-churn-prediction/
 3. Download the [Telco Customer Churn dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) and place it in `data/`
 4. Run `Customer Churn Prediction.ipynb`
 
-## 👤 Author
+##  Author
 **Gautam Santosh**
 
 Built as part of an end-to-end data science portfolio focused on real-world business problems.
